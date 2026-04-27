@@ -68,8 +68,11 @@ sort → asc or desc
 page → page number
 
 Example:
+
 /products?search=shirt&category=Clothing&sort=asc&page=1
+
 Response:
+
 {
   "products": [...],
   "total": 10,
@@ -77,6 +80,7 @@ Response:
   "page_size": 3,
   "total_pages": 4
 }
+
 ⚠️ Error Handling
 Invalid page → returns 400
 
