@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Listing</title>
+</head>
+<body>
+
+    <h1>Products</h1>
+
+    <!-- Search -->
+    <input type="text" id="search" placeholder="Search products..." />
+
+    <!-- Category Filter -->
+    <select id="category">
+        <option value="">All Categories</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Footwear">Footwear</option>
+        <option value="Accessories">Accessories</option>
+    </select>
+
+    <!-- Sort -->
+    <select id="sort">
+        <option value="">Sort</option>
+        <option value="asc">Price Low to High</option>
+        <option value="desc">Price High to Low</option>
+    </select>
+
+    <!-- Product List -->
+    <div id="product-list"></div>
+
+    <!-- Pagination -->
+    <button id="prev">Prev</button>
+    <button id="next">Next</button>
+
+    <script src="{% static 'products/script.js' %}"></script>
+
+</body>
+</html>
