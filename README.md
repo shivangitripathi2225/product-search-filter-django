@@ -1,5 +1,7 @@
 🛍️ Product Search & Filter API (Django + Vanilla JS)
+
 📌 Overview
+
 This project implements a full-stack product listing feature with search, filtering, sorting, and pagination.
 
 🚀 Features
@@ -36,8 +38,8 @@ Database: SQLite
 
 ⚙️ Setup Instructions
 1. Clone the repository
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/shivangitripathi2225/product-search-filter-django.git
+cd product-search-filter-django
 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
@@ -53,6 +55,7 @@ python manage.py createsuperuser
 python manage.py runserver
 7. Open in browser
 http://127.0.0.1:8000/
+
 🔌 API Endpoint
 GET /products
 Query Parameters:
